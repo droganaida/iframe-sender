@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #ffffff;
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+a {color: #0b5b5b; transition: .2s;}
+a:hover {color: #008080; transition: .2s;}
+
+.content, header, footer {
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+}
+header, footer {
+    background: #008080;
+    color: #ffffff;
+}
+
+header a, footer a, header a:hover, footer a:hover {color: #ffffff;}
+
+.content {
+    flex-grow: 1;
+}
+
+.content p {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.8;
+}
+.frame-holder {
+    overflow: hidden;
+}
